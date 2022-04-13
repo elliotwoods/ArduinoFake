@@ -82,6 +82,8 @@ class Print
     size_t println(double, int = 2);
     size_t println(const Printable&);
     size_t println(void);
+
+    void flush() {}
 };
 
 #endif
